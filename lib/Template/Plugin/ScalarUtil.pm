@@ -3,7 +3,7 @@ BEGIN {
   $Template::Plugin::ScalarUtil::AUTHORITY = 'cpan:AJGB';
 }
 BEGIN {
-  $Template::Plugin::ScalarUtil::VERSION = '1.110770';
+  $Template::Plugin::ScalarUtil::VERSION = '1.110920';
 }
 # ABSTRACT: Scalar::Util plugin for Template-Toolkit
 
@@ -49,7 +49,7 @@ Template::Plugin::ScalarUtil - Scalar::Util plugin for Template-Toolkit
 
 =head1 VERSION
 
-version 1.110770
+version 1.110920
 
 =head1 SYNOPSIS
 

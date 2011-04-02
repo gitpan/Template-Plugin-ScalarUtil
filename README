@@ -2,7 +2,7 @@ NAME
     Template::Plugin::ScalarUtil - Scalar::Util plugin for Template-Toolkit
 
 VERSION
-    version 1.110770
+    version 1.110920
 
 SYNOPSIS
         [% USE ScalarUtil %]

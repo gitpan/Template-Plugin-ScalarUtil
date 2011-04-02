@@ -12,6 +12,8 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: 6.31
   Module::Build: 0.3601
+  Scalar::Util: 1.22
+  Template: 2.22
 dynamic_config: 0
 generated_by: 'Dist::Zilla version 4.200004, CPAN::Meta::Converter version 2.102400'
 license: perl
@@ -20,14 +22,13 @@ meta-spec:
   version: 1.4
 name: Template-Plugin-ScalarUtil
 requires:
-  Scalar::Util: 1.22
-  Template: 2.22
+  Scalar::Util: 0
   Template::Plugin: 0
 resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Template-Plugin-ScalarUtil
   homepage: http://search.cpan.org/dist/Template-Plugin-ScalarUtil
   repository: git://github.com/ajgb/template-plugin-scalarutil.git
-version: 1.110770
+version: 1.110920
 x_Dist_Zilla:
   plugins:
     -
@@ -166,9 +167,9 @@ x_Dist_Zilla:
       class: Dist::Zilla::Plugin::Prereqs
       config:
         Dist::Zilla::Plugin::Prereqs:
-          phase: runtime
+          phase: configure
           type: requires
-      name: RuntimeRequires
+      name: ConfigureRequires
       version: 4.200004
     -
       class: Dist::Zilla::Plugin::AutoPrereqs

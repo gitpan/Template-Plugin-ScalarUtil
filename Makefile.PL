@@ -21,18 +21,19 @@ my %WriteMakefileArgs = (
   },
   'CONFIGURE_REQUIRES' => {
     'ExtUtils::MakeMaker' => '6.31',
-    'Module::Build' => '0.3601'
+    'Module::Build' => '0.3601',
+    'Scalar::Util' => '1.22',
+    'Template' => '2.22'
   },
   'DISTNAME' => 'Template-Plugin-ScalarUtil',
   'EXE_FILES' => [],
   'LICENSE' => 'perl',
   'NAME' => 'Template::Plugin::ScalarUtil',
   'PREREQ_PM' => {
-    'Scalar::Util' => '1.22',
-    'Template' => '2.22',
+    'Scalar::Util' => '0',
     'Template::Plugin' => '0'
   },
-  'VERSION' => '1.110770',
+  'VERSION' => '1.110920',
   'test' => {
     'TESTS' => 't/*.t'
   }
