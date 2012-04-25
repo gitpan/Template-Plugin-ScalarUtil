@@ -2,7 +2,7 @@ NAME
     Template::Plugin::ScalarUtil - Scalar::Util plugin for Template-Toolkit
 
 VERSION
-    version 1.110920
+    version 1.121160
 
 SYNOPSIS
         [% USE ScalarUtil %]
@@ -117,13 +117,16 @@ NOTES
     *   weaken
 
 SEE ALSO
+    Please see those modules/websites for more information related to this
+    module.
+
     *   Scalar::Util
 
 AUTHOR
     Alex J. G. Burzyński <ajgb@cpan.org>
 
 COPYRIGHT AND LICENSE
-    This software is copyright (c) 2011 by Alex J. G. Burzyński
+    This software is copyright (c) 2012 by Alex J. G. Burzyński
     <ajgb@cpan.org>.
 
     This is free software; you can redistribute it and/or modify it under

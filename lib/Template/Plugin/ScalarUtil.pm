@@ -2,8 +2,8 @@ package Template::Plugin::ScalarUtil;
 BEGIN {
   $Template::Plugin::ScalarUtil::AUTHORITY = 'cpan:AJGB';
 }
-BEGIN {
-  $Template::Plugin::ScalarUtil::VERSION = '1.110920';
+{
+  $Template::Plugin::ScalarUtil::VERSION = '1.121160';
 }
 # ABSTRACT: Scalar::Util plugin for Template-Toolkit
 
@@ -49,7 +49,7 @@ Template::Plugin::ScalarUtil - Scalar::Util plugin for Template-Toolkit
 
 =head1 VERSION
 
-version 1.110920
+version 1.121160
 
 =head1 SYNOPSIS
 
@@ -181,6 +181,8 @@ of TT's stash.
 
 =head1 SEE ALSO
 
+Please see those modules/websites for more information related to this module.
+
 =over 4
 
 =item *
@@ -195,7 +197,7 @@ Alex J. G. Burzyński <ajgb@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2011 by Alex J. G. Burzyński <ajgb@cpan.org>.
+This software is copyright (c) 2012 by Alex J. G. Burzyński <ajgb@cpan.org>.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
